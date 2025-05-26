@@ -1,0 +1,12 @@
+@keyframes scrollUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50%);
+  }
+}
+
+#events table {
+  animation: scrollUpDown 10s linear infinite alternate;
+}
