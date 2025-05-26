@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Local Community Event Portal</title>
+  <style>
+    /* Full page background */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #243b55; /* dark blue background */
+      color: white; /* white font outside form */
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navigation Styling */
+    nav {
+      background-color: #1b2b44;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Section Titles in white */
+    h2 {
+      text-align: center;
+      color: white;
+      margin-top: 40px;
+    }
+
+    /* Form Styling */
+    form {
+      margin: 20px auto 40px;
+      max-width: 600px;
+      padding: 20px;
+      border: 2px solid #ccc;
+      background-color: #f9f9f9; /* light background inside form */
+      color: black; /* black text inside form */
+      border-radius: 6px;
+    }
+
+    form input, form select, form textarea {
+      display: block;
+      margin-bottom: 15px;
+      width: 100%;
+      padding: 8px;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      color: black;
+    }
+
+    form button {
+      padding: 10px 20px;
+      background-color: #243b55;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    form button:hover {
+      background-color: #3e5e7d;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index2.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="contact.html">Contact</a>
+    <a href="help.html">Help</a>
+    <a href="feedback.html">Feedback</a>
+
+  </nav>
+
+  <!-- Registration Form Section -->
+  <section id="contact">
+    <h2>Register for an Event</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required autofocus />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" name="number" placeholder="Your phone" required />
+      <input type="date" name="date" required />
+      <select name="eventType" required>
+        <option value="">Select Event Type</option>
+        <option value="music">Music Fest</option>
+        <option value="art">Art Exhibition</option>
+        <option value="sports">Sports Events</option>
+        <option value="food">Food Festival</option>
+        <option value="book">Books Fair</option>
+        <option value="culturalsnight">Culturals Night</option>
+
+
+
+      </select>
+<center>
+      <button onclick="window.location.href='thankyou.html'">Submit</button>
+    </form>
+  </section>
+
+</body>
+</html>

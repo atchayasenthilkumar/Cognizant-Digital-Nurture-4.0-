@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Local Community Event Portal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    nav {
+      background-color: #243b55;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin-right: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    h1 {
+      border: 2px solid white;
+      color: white;
+      background-color: #243b55;
+      padding: 10px;
+      margin: 0;
+    }
+
+    #welcomeBanner {
+      background-color: lightblue;
+      color: black;
+      padding: 20px;
+      margin-top: 10px;
+    }
+
+    .highlight {
+      background-color: black;
+      color: white;
+      font-weight: bold;
+      padding: 5px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    iframe {
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+
+    table {
+      margin: 20px auto;
+    }
+
+    td {
+      padding: 10px;
+    }
+
+    td img {
+      width: 200px;
+      height: 150px;
+      border: 2px solid #ccc;
+      display: block;
+      margin: 0 auto;
+    }
+
+    caption {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 10px;
+      caption-side: top;
+    }
+
+    footer {
+      margin-top: 30px;
+      background-color: #243b55;
+      padding: 10px;
+      color: white;
+    }
+
+    div {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Welcome to our Event Portal!</h1>
+  <script src="script.js"></script>
+
+  <nav>
+    <a href="index2.html">Home</a>
+    <a href="login.html">Events</a>
+    <a href="contact.html">Contact</a>
+    <a href="help.html">Help</a>
+    <a href="feedback.html">Feedback</a>
+  </nav>
+<br><br>
+<video width="640" height="360" controls>
+  <source src="promo.mp4" type="video/mp4">
+</video>
+  <!-- Events Gallery -->
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <marquee direction="up" scrollamount="5" height="400px" behavior="alternate">
+      <table>
+        <tr>
+          <td><img src="music.jpeg" alt="Music Fest" title="Music Fest"></td>
+          <td><img src="foodfestival.jpeg" alt="Food Carnival" title="Food Carnival"></td>
+          <td><img src="artexhibition.jpeg" alt="Art Exhibition" title="Art Exhibition"></td>
+        </tr>
+        <tr>
+          <td><img src="sports.jpeg" alt="Marathon" title="Marathon"></td>
+          <td><img src="bookfair.jpeg" alt="Book Fair" title="Book Fair"></td>
+          <td><img src="culturalsnight.jpeg" alt="Cultural Night" title="Cultural Night"></td>
+        </tr>
+      </table>
+    </marquee>
+  </section>
+
+
+  <div id="welcomeBanner">
+    <span style="color: red; font-weight: bold;">Special Offer:</span> Free entry for kids under 10!</div>
+<div>
+<p class="highlight">Enjoy local events with family and friends.</p>
+</div>
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Local Community Event Portal</p>
+  </footer>
+
+</body>
+</html>

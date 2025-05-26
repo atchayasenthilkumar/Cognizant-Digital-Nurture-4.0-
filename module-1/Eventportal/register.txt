@@ -1,0 +1,99 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Local Community Event Portal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navigation Styling */
+    nav {
+      background-color: #243b55;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin-right: 20px;
+      text-decoration: none;
+    }
+
+    /* Welcome Banner Styling */
+    #welcomeBanner {
+      background-color: blue;
+      color: white;
+      padding: 20px;
+      margin-top: 10px;
+    }
+
+    .highlight {
+      background-color: yellow;
+      font-weight: bold;
+    }
+
+    /* Image Gallery */
+    table {
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    td img {
+      width: 100%;
+      border: 2px solid #ccc;
+    }
+
+    caption {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    /* Form Styling */
+    form {
+      margin-top: 20px;
+    }
+
+    form input, form select, form textarea {
+      display: block;
+      margin-bottom: 10px;
+      width: 100%;
+      padding: 8px;
+    }
+
+    form button {
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+    <a href="help.html" target="_blank">Help</a>
+  </nav>
+<!-- Registration Form -->
+  <section id="contact">
+    <h2>Register for an Event</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required autofocus>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="date" name="date" required>
+      <select name="eventType" required>
+        <option value="">Select Event Type</option>
+        <option value="music">Music</option>
+        <option value="art">Art</option>
+        <option value="sports">Sports</option>
+      </select>
+      <textarea name="message" placeholder="Your Message"></textarea>
+      <output>Form will confirm upon submission</output>
+      <br>
+      <button onclick="window.location.href='thankyou.html'">Submit</button>
+    </form>
+  </section>
+</html>
